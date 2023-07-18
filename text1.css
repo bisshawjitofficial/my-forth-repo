@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-containar{
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 150px;
+}
+.manus{
+    color: white;
+    display: flex;
+    
+}
+.item{
+    margin-right: 25px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.item:hover{
+    color: blue;
+}
+.bannar-img{
+    width: 300px;
+}
+.bannar-containar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#161616, #1b1b1b);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.discription{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+    border: none;
+
+}
+.btn:hover{
+    color: blue;
+}
+.about-containar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 250px;
+    height: 280px;
+    box-shadow: 4px 5px 10px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-titel{
+    padding: 10px;
+}
+.box-descripsion{
+    padding: 10px;
+}
+.servive-containar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url("./images/background.png"), linear-gradient(45deg, #111111, #090909);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+#up-down{
+    background-image: url("./images/background.png"), linear-gradient(45deg, #111111, #090909);
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+    background-color: #090909;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.list{
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.list:hover{
+    color: green;
+}
+.Heading{
+    padding-bottom: 20px;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #090909;
+    color: white;
+    height: 07vh;
+    
+
+}
